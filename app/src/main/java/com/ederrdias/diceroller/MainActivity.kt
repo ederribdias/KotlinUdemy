@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val botaoRolar: Button = findViewById(R.id.botao_rolar)
-        botaoRolar.text = "Vamos rolar!"
+        botaoRolar.text = "Vamos rolar !"
         botaoRolar.setOnClickListener{
             rollDice()
         }
